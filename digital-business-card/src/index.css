@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    @apply bg-[#23252C] flex items-center justify-center;
+    font-family: "Inter", sans-serif;
+  }
+}

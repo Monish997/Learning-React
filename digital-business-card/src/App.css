@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply bg-[#1A1B21] flex flex-col max-w-[317px] rounded-[10px] overflow-hidden shadow-lg items-center;
+  }
+  .button {
+    @apply flex flex-row items-center justify-center rounded-md cursor-pointer;
+    width: 115px;
+    height: 34px;
+  }
+  .footer {
+    @apply flex flex-row bg-[#161619] text-[#918E9B] py-[19.5px] w-full justify-center;
+  }
+}
